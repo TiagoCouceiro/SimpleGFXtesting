@@ -43,7 +43,6 @@ public class Startscreen {
 
         }
     };
-
     Thread thread2 = new Thread() {
         @Override
         public void run() {
@@ -284,10 +283,5 @@ public class Startscreen {
         }
     }
 }
-
-
-// TITLE FONTS
-
-// GOVERNOR ,
 
 

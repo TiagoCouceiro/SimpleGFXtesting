@@ -1,7 +1,6 @@
 package PokemonAC.Map;
 
 import PokemonAC.Player.Player;
-import PokemonAC.Player.PlayerPosition;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class MapOne extends Map{
@@ -9,7 +8,7 @@ public class MapOne extends Map{
     private Player player;
     private Picture backGround1;
 
-    public MapOne(Player player, PlayerPosition playerPosition) {
+    public MapOne() {
         super();
         backGround1 = new Picture(PADDING,PADDING,"map/background1.jpeg");
         backGround1.draw();

@@ -11,17 +11,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Map map = new MapOne();
-        // Startscreen start = new Startscreen();
+        Startscreen start = new Startscreen();
 
-        Player player = new Player(map);
+        /** GameMap
+         *  Player movement testing
+         */
 
+        // Map map = new MapOne();
+
+        /** AWSD to move player
+         * Keyboard testing
+         */
+
+        // Player player = new Player(map);
+
+        /** Set keyboard for player */
+
+        // keyboardLogic.setPlayer(player);
 
         KeyboardLogic keyboardLogic = new KeyboardLogic();
-        keyboardLogic.setPlayer(player);
-        // keyboardLogic.setStartscreen(start);
+        keyboardLogic.setStartscreen(start);
         keyboardLogic.init();
-
-
     }
 }
